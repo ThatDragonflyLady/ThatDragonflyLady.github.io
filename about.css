@@ -1,0 +1,81 @@
+header
+{
+justify-content:space-between;
+background-color:#367588;
+color:white;
+padding:30px;
+}
+
+nav ul {list-style:none;
+Margin:center;
+
+padding:0;
+display:flex;
+justify-content:center;
+}
+
+nav {
+    margin-top: 0; justify-content:center;
+}
+nav ul {
+    list-style-type: none; 
+    margin: center-bottom;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+	font-size:30px;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+body{
+	background-color:	#141414;
+	font-family:'Arial' helvetica, San-serif;
+	margin:0;
+	padding:0;
+	color:white;
+
+	
+}
+h1{
+	text-align:center-left;
+	padding-left:500px;
+	margin-top:200px;
+}
+.vertical-line {
+  border-left: 4px dashed #367588;
+  height: 100vh;                
+  position: absolute;
+  left: 50%;                    
+  transform: translateX(-50%);  
+  top: 0;
+}
+
+img {
+  width: 500px;
+  height: flex;
+  float:right;
+  margin-right:245px;
+  margin-left:450px;
+  margin-top:20px;
+}
+p {
+  margin-top: 50px;  
+  margin-left: 200px;
+  font-size:20px;
+}
+footer {
+  position: fixed; /* Takes the footer out of the normal document flow */
+  bottom: 0; /* Positions it at the bottom edge of the viewport */
+  left: 0;
+   color: white;
+}
